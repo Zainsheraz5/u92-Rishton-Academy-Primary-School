@@ -1,0 +1,114 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f4f4f4;
+}
+
+.wrapper {
+  width: 350px;
+  padding: 20px;
+  margin: auto;
+  margin-top: 100px;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px 0px #000;
+}
+
+h2 {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 25px;
+}
+
+.form-group label {
+  margin-bottom: 10px;
+}
+
+.form-group input,
+.form-group select {
+  padding: 8px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.form-group .help-block {
+  color: red;
+  font-size: 12px;
+}
+
+.btn {
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+.btn-action {
+  display: inline-block;
+  padding: 8px 16px;
+  margin: 5px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn-action-primary {
+  background-color: #338fc4;
+  color: #fff;
+}
+
+.btn-action-primary:hover {
+  background-color: #133052;
+  transform: scale(1.05);
+}
+
+.btn-danger {
+  background-color: #ce656f;
+  color: #fff;
+}
+
+.btn-danger:hover {
+  background-color: #c82333;
+  transform: scale(1.05);
+}
+
+.success {
+  color: green;
+  font-size: 14px;
+}
+
+.error {
+  color: red;
+  font-size: 14px;
+}
+
+a.btn-primary {
+  display: block;
+  margin-top: 20px;
+  text-align: center;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+a.btn-primary:hover {
+  background-color: #0056b3;
+}
