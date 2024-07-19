@@ -11,7 +11,7 @@ To access the admin panel, follow the instructions below:
 
 ### URL
 
-[Admin Panel Login](http://3.112.34.41/php/login.php)
+[Website Login](http://3.112.34.41/php/login.php)
 
 ### Credentials
 
